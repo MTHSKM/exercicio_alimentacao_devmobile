@@ -11,7 +11,7 @@ export default function Rodape() {
                 </Text>
             </View>
         </View>
-    );
+    )
 }
 
 const styles = StyleSheet.create({
@@ -34,4 +34,4 @@ const styles = StyleSheet.create({
         height: 1,
         backgroundColor: 'white'
     }
-});
+})

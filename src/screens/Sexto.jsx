@@ -16,6 +16,7 @@ export default function Sexto() {
                     opcaoTextoB={<Text>Duas ou menos vezes por semana.</Text>}
                     opcaoTextoC={<Text>Todos os dias.{'\n'}</Text>}
                     proximaTela="Sétima Pergunta"
+                    id='6'
                 ></Perguntas>
             </Corpo>
             <Rodape></Rodape>

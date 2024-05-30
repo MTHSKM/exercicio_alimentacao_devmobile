@@ -1,4 +1,3 @@
-import { View, Text } from 'react-native'
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import Inicio from './src/screens/Inicio'
@@ -14,6 +13,7 @@ import Setimo from './src/screens/Setimo'
 import Oitavo from './src/screens/Oitavo'
 import Nono from './src/screens/Nono'
 import Decimo from './src/screens/Decimo'
+import Feedback from './src/screens/Feedback'
 
 const Stack = createNativeStackNavigator()
 
@@ -33,6 +33,7 @@ export default function App() {
           <Stack.Screen name='Oitava Pergunta' component={Oitavo}></Stack.Screen>
           <Stack.Screen name='Nona Pergunta' component={Nono}></Stack.Screen>
           <Stack.Screen name='Décima Pergunta' component={Decimo}></Stack.Screen>
+          <Stack.Screen name='Resultado' component={Feedback}></Stack.Screen>
         </Stack.Navigator>
       </RespostaProvider>
     </NavigationContainer>

@@ -16,6 +16,7 @@ export default function Quinto() {
                     opcaoTextoB={<Text>Chocolates, pães, bolachas recheadas, salgadinhos, refrigerante</Text>}
                     opcaoTextoC={<Text>Frutas, iogurte, barrinha de cereal, sanduíche de pão integral.</Text>}
                     proximaTela="Sexta Pergunta"
+                    id='5'
                 ></Perguntas>
             </Corpo>
             <Rodape></Rodape>

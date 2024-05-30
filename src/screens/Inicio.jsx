@@ -1,6 +1,6 @@
-import { useNavigation } from '@react-navigation/native'
 import React, { useEffect } from 'react'
-import { Animated, Easing, StyleSheet, View, TouchableOpacity, Text } from 'react-native'
+import { Animated, Easing, StyleSheet, View } from 'react-native'
+import Botao from '../components/Botao'
 
 export default function AnimatedLogo() {
   const spinValue = new Animated.Value(0)
@@ -27,17 +27,16 @@ export default function AnimatedLogo() {
     outputRange: ['0deg', '360deg']
   })
 
-  const navigation = useNavigation()
-
   return (
     <View style={styles.container}>
       <Animated.Image
         style={[styles.logo, { transform: [{ rotate: spinAnimation }] }]}
         source={require("../images/logo.png")}
       ></Animated.Image>
-      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Primeira Pergunta')}>
-        <Text style={styles.buttonText}>Começar</Text>
-      </TouchableOpacity>
+      <Botao
+        texto = 'Começar'
+        proximaTela="Primeira Pergunta"
+      ></Botao>
     </View>
   )
 }
@@ -52,17 +51,5 @@ const styles = StyleSheet.create({
     width: '33%',
     height: '33%',
     resizeMode: 'contain'
-  },
-  button: {
-    marginTop: 20,
-    backgroundColor: 'blue',
-    padding: 10,
-    borderRadius: 5,
-    width: '40%'
-  },
-  buttonText: {
-    color: 'white',
-    fontSize: 16,
-    textAlign: 'center'
   }
 })

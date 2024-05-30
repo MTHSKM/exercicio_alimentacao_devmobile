@@ -16,6 +16,7 @@ export default function Setimo() {
                     opcaoTextoB={<Text>Não consumo carne vermelha</Text>}
                     opcaoTextoC={<Text>Duas vezes ou mais</Text>}
                     proximaTela="Oitava Pergunta"
+                    id='7'
                 ></Perguntas>
             </Corpo>
             <Rodape></Rodape>

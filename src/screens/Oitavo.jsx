@@ -16,6 +16,7 @@ export default function Oitavo() {
                     opcaoTextoB={<Text>Duas vezes ou mais.</Text>}
                     opcaoTextoC={<Text>Nenhuma atividade física.</Text>}
                     proximaTela="Nona Pergunta"
+                    id='8'
                 ></Perguntas>
             </Corpo>
             <Rodape></Rodape>

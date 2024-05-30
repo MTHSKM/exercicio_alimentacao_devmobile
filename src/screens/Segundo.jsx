@@ -16,6 +16,7 @@ export default function Segundo() {
                     opcaoTextoB="De três a quatro vezes por dia."
                     opcaoTextoC="Mais de cinco vezes por dia."
                     proximaTela="Terceira Pergunta"
+                    id='2'
                 ></Perguntas>
             </Corpo>
             <Rodape></Rodape>

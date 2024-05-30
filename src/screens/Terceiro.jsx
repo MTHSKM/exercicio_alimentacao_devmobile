@@ -16,6 +16,7 @@ export default function Terceiro() {
                     opcaoTextoB="Café com leite, pão branco, margarina, queijo e presunto."
                     opcaoTextoC="Frutas e sucos naturais, cereais integrais, tapiod, pão integral."
                     proximaTela="Quarta Pergunta"
+                    id='3'
                 ></Perguntas>
             </Corpo>
             <Rodape></Rodape>

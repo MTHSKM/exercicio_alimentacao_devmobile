@@ -16,6 +16,7 @@ export default function Nono() {
                     opcaoTextoB={<Text>Óleos vegetais (óleo de soja, girassol, algodão, canola).</Text>}
                     opcaoTextoC={<Text>Margarina ou gordura vegetal.</Text>}
                     proximaTela="Décima Pergunta"
+                    id='9'
                 ></Perguntas>
             </Corpo>
             <Rodape></Rodape>

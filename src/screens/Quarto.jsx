@@ -16,6 +16,7 @@ export default function Quarto() {
                     opcaoTextoB={<Text>{'\n'}Três unidades.{'\n'}</Text>}
                     opcaoTextoC={<Text>{'\n'}Duas ou menos unidades.{'\n'}</Text>}
                     proximaTela="Quinta Pergunta"
+                    id='4'
                 ></Perguntas>
             </Corpo>
             <Rodape></Rodape>

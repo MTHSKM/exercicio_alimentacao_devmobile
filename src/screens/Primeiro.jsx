@@ -1,4 +1,4 @@
-import { View, ScrollView } from 'react-native'
+import { View } from 'react-native'
 import React from 'react'
 import Perguntas from '../components/Perguntas'
 import Corpo from '../components/Corpo'
@@ -16,6 +16,7 @@ export default function Primeiro() {
                     opcaoTextoB="Menos de quatro copos."
                     opcaoTextoC="Mais de cinco copos."
                     proximaTela="Segunda Pergunta"
+                    id='1'
                 ></Perguntas>
             </Corpo>
             <Rodape></Rodape>

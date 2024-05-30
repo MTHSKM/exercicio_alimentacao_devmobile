@@ -15,7 +15,8 @@ export default function Decimo() {
                     opcaoTextoA={<Text>Não tomo refrigerantes.</Text>}
                     opcaoTextoB={<Text>Três ou menos vezes por semana</Text>}
                     opcaoTextoC={<Text>Todos os dias.</Text>}
-                    proximaTela="Inicio"
+                    proximaTela="Resultado"
+                    id='10'
                 ></Perguntas>
             </Corpo>
             <Rodape></Rodape>
